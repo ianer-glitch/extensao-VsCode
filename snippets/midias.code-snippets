@@ -1,0 +1,33 @@
+{
+    "midias": {
+        "prefix": "midias",
+        "body": [
+            "\r",
+            "@media (min-width:310px) {\r",
+            "    \r",
+            "}\r",
+            "\r",
+            "@media (min-width:368px) {\r",
+            "\r",
+            "}\r",
+            "\r",
+            "@media (min-width:600px) {\r",
+            "\r",
+            "}\r",
+            "\r",
+            "@media (min-width:801px) {\r",
+            "\r",
+            "}\r",
+            "\r",
+            "@media (min-width:1025px) { \r",
+            "\r",
+            "}\r",
+            "\r",
+            "@media (min-width:1281px) { \r",
+            "    \r",
+            "}\r",
+            ""
+        ],
+        "description": "midias"
+    }
+}

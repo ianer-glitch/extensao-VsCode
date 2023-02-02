@@ -1,8 +1,8 @@
 {
-  "name":"MvSpeed",
+  "name": "MvSpeed",
   "displayName": "MvSpeed",
   "description": "MvSpeed",
-  "publisher" : "Moovefy", 
+  "publisher": "Moovefy",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -28,18 +28,32 @@
         "category": "MvSpeed",
         "title": "converter ViewModel C# => Js/Ts"
       }
-
     ],
     "snippets": [
       {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
+        "language":"typescript",
+        "path": "./snippets/comp.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "language":"javascript",
+        "path": "./snippets/comp.code-snippets"
+      },
+      {
+        "language":"typescript",
+        "path": "./snippets/cjs.code-snippets"
+      },
+      {
+        "language":"javascript",
+        "path": "./snippets/cjs.code-snippets"
+      },
+      {
+        "language":"vue",
+        "path": "./snippets/cvue.code-snippets"
+      },
+      {
+        "language":"css",
+        "path": "./snippets/midias.code-snippets"
       }
-    
     ]
   },
   "scripts": {

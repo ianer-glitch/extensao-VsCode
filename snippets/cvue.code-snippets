@@ -1,0 +1,21 @@
+{
+    "cvue": {
+        "prefix": "cvue",
+        "body": [
+            "<template>\r",
+            "    <div></div>\r",
+            "</template>\r",
+            "\r",
+            "<script>\r",
+            "import $TM_FILENAME_BASE from './$TM_FILENAME_BASE.js' \r",
+            "export default $TM_FILENAME_BASE\r",
+            "</script>\r",
+            "\r",
+            "<style scoped>\r",
+            "\r",
+            "</style>\r",
+            ""
+        ],
+        "description": "cvue"
+    }
+}
