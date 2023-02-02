@@ -1,7 +1,7 @@
 {
-  "name":"Moove Tools",
-  "displayName": "Moove Tools",
-  "description": "Moovefy Tools",
+  "name":"MvSpeed",
+  "displayName": "MvSpeed",
+  "description": "MvSpeed",
   "publisher" : "Moovefy", 
   "version": "0.0.1",
   "engines": {
@@ -20,13 +20,13 @@
     "commands": [
       {
         "command": "helloworld.formGenerator",
-        "category": "Moove",
+        "category": "MvSpeed",
         "title": "formGenerator"
       },
       {
         "command": "helloworld.converterViewModel",
-        "category": "Moove",
-        "title": "converterViewModel"
+        "category": "MvSpeed",
+        "title": "converter ViewModel C# => Js/Ts"
       }
 
     ],
