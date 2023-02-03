@@ -21,12 +21,12 @@
       {
         "command": "helloworld.formGenerator",
         "category": "MvSpeed",
-        "title": "formGenerator"
+        "title": "Gerar formulario"
       },
       {
         "command": "helloworld.converterViewModel",
         "category": "MvSpeed",
-        "title": "converter ViewModel C# => Js/Ts"
+        "title": "Converter ViewModel C# => Js/Ts"
       }
     ],
     "snippets": [

@@ -101,21 +101,28 @@ export function activate(context: vscode.ExtensionContext) {
 	}
 	function  getCurrenctComponentAtrributeInString(attributes : any) : string {
 	let str : string = "";
-	Object.keys(attributes).forEach((att : any) => {
-		if(typeof attributes[att] === "string" && (!attributes[att].includes('this.'))){
-			str =str + `\n\t\t${att}="${attributes[att]}"`;       
-		}else{
-			str =str + `\n\t\t:${att} = "${attributes[att]}"`;
-		}
-	});
+	if(attributes){
+		Object.keys(attributes).forEach((att : any) => {
+			if(typeof attributes[att] === "string" && (!attributes[att].includes('this.'))){
+				str =str + `\n\t\t${att}="${attributes[att]}"`;       
+			}else{
+				str =str + `\n\t\t:${att} = "${attributes[att]}"`;
+			}
+		});
+	}
 	return str;
 	}
 	function getCurrenctComponentStyleInString(attributes : any) : string {
 	let str : string = "";
-	Object.keys(attributes).forEach((att : any) => {
-		str =str + `\n\t\t${att}:'${attributes[att]}';`;       
-	});
-	return `\n\t\tstyle = "${str}"`;
+	if(attributes){
+		Object.keys(attributes).forEach((att : any) => {
+			str =str + `\n\t\t${att}:'${attributes[att]}';`;       
+		});
+		return `\n\t\tstyle = "${str}"`;
+	}else{
+		return str;
+	}
+
 	}
 	function formatSelectedTextToJSON(text : string){
 		text = text.replace('{{','[');
@@ -186,7 +193,7 @@ export function activate(context: vscode.ExtensionContext) {
 				let selection = editor.selection;
 				let displayType : string;
 				const displayTypeReturn = await vscode.window.showInputBox({
-					placeHolder:"(flex/grid) - Vazio = flex",
+					placeHolder:"(flex/grid)",
 					prompt:"Insira o tipo de display do container (flex/grid)"
 				}).then((e)=>{return e?.toLowerCase();});
 				
