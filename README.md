@@ -19,7 +19,7 @@ A utilização consiste em:
 - Selecionar o arquivo todo, pressionar ctrl + shift + p .
 - Selecionar *******************Converter ViewModel*******************
 
-![ConversorViewModel.gif](./assets/gifs/GeradorDeFormulario.gif)
+![ConversorViewModel.gif](./assets/gifs/ConversorViewModel.gif)
 
 ---
 
