@@ -19,6 +19,8 @@ A utilização consiste em:
 - Selecionar o arquivo todo, pressionar ctrl + shift + p .
 - Selecionar *******************Converter ViewModel*******************
 
+![ConversorViewModel.gif](./assets/gifs/GeradorDeFormulario.gif)
+
 ---
 
 ## Gerador de formulário automático
@@ -27,11 +29,18 @@ o gerador tenta acelerar o processo de criação e padronização de formulário
 
 Utilização:
 
-```html
-<template>
-{{ prop }}
-<template>
-```
+1. Chamar o snippet de componente do formulário
+    
+    ```html
+    <template>
+    {{ comp }}
+    <template>
+    ```
+    
+2. Escrever o componente vue em forma de função
+3. Selecionar se o formulário é flex ou grid
+
+![GeradorDeFormulario.gif](./assets/gifs/GeradorDeFormulario.gif)
 
 ---
 
@@ -39,7 +48,8 @@ Utilização:
 
 Estão contidas nesse pacote os seguintes snippets :
 
-- *cjs* ⇒ gerar o js do vue - .***js***
-- *cvue* ⇒ gerar o .vue rapidamente - ****.vue****
-- *midias ⇒* criar os midia querys para responsividade  ** - ****.vue****
-- *prop* ⇒ cria o componente js para conversão em formulário html -  .vue
+- *cjs* ⇒ Gerar o js do vue - .***js***
+- *cvue* ⇒ Gerar o .vue rapidamente - ****.vue****
+- *midias ⇒ C*riar os midia querys para responsividade  ** - ****.vue****
+- *prop* ⇒ Cria o componente js para conversão em formulário html -  *.vue*
+- comp ⇒ Criar o componente do gerador de formulário - *.js*

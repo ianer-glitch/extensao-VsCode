@@ -3,7 +3,7 @@
   "displayName": "MvSpeed",
   "description": "MvSpeed",
   "publisher": "Moovefy",
-  "version": "0.0.1",
+  "version": "0.5.3",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -15,6 +15,10 @@
     "onCommand:helloworld.helloWorld",
     "onCommand:helloworld.formGenerator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianer-glitch/extensao-VsCode"
+  },
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
