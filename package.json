@@ -3,7 +3,7 @@
   "displayName": "MvSpeed",
   "description": "MvSpeed",
   "publisher": "Moovefy",
-  "version": "0.5.15",
+  "version": "0.5.16",
   "engines": {
     "vscode": "^1.74.0"
   },

@@ -2,8 +2,9 @@
     "cjs": {
         "prefix": "cjs",
         "body": [
+            "import { defineComponent } from \"vue\";",
             "const name = '$TM_FILENAME_BASE'\r",
-            "export default {\r",
+            "export default defineComponent({\r",
             "  name,\r",
             "\r",
             "  components: { }, \r",
@@ -22,7 +23,7 @@
             "\r",
             "  computed: { }, \r",
             "\r",
-            "};"
+            "});"
         ],
         "description": "cjs"
     }

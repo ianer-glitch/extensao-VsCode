@@ -116,7 +116,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let str : string = "";
 	if(attributes){
 		Object.keys(attributes).forEach((att : any) => {
-			str =str + `\n\t\t${att}:'${attributes[att]}';`;       
+			str =str + `\n\t\t${att}: ${attributes[att]};`;       
 		});
 		return `\n\t\tstyle = "${str}"`;
 	}else{
