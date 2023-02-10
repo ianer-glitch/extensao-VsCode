@@ -1,0 +1,43 @@
+{
+    "cvue": {
+        "prefix": "startvue",
+        "body": [
+            "<script>\r",
+            "import { defineComponent } from \"vue\";",
+            "const name = '$TM_FILENAME_BASE'\r",
+            "\r",
+            "export default defineComponent({\r",
+            "  name,\r",
+            "\r",
+            "  components: { }, \r",
+            "\r",
+            "  props: { },\r",
+            "\r",
+            "  mounted () { },\r",
+            "\r",
+            "  updated () { },\r",
+            "\r",
+            "  data () {\r",
+            "    return { }\r",
+            "  },\r",
+            "\r",
+            "  methods: { },\r",
+            "\r",
+            "  computed: { }, \r",
+            "\r",
+            "});",
+            "</script>\r",
+            "\r",
+            "<template>\r",
+            "    <div></div>\r",
+            "</template>\r",
+            "\r",
+            "\r",
+            "<style scoped>\r",
+            "\r",
+            "</style>\r",
+            ""
+        ],
+        "description": "criar novo arquivo vue completo em SFC"
+    }
+}

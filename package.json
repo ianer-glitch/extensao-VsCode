@@ -3,7 +3,7 @@
   "displayName": "MvSpeed",
   "description": "MvSpeed",
   "publisher": "Moovefy",
-  "version": "0.5.16",
+  "version": "0.6.16",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -50,6 +50,10 @@
       {
         "language":"javascript",
         "path": "./snippets/cjs.code-snippets"
+      },
+      {
+        "language":"vue",
+        "path": "./snippets/startvue.code-snippets"
       },
       {
         "language":"vue",
